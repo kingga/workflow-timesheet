@@ -1,5 +1,5 @@
 {
-    "name": "kingga/workflow",
+    "name": "kingga/workflow-timesheet",
     "description": "Xero workflow weekly CSV parser.",
     "type": "project",
     "version": "1.0.0",
