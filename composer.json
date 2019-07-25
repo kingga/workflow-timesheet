@@ -1,0 +1,28 @@
+{
+    "name": "kingga/workflow",
+    "description": "Xero workflow weekly CSV parser.",
+    "type": "project",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "scripts": {
+        "codecept": "codecept",
+        "create-unit": "codecept g:unit",
+        "test": "codecept run"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.3",
+        "codeception/codeception": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaac Skelton",
+            "email": "contact@isaacskelton.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kingga\\Workflow\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+,,,,, ,,
+Time Sheet,,,,,,,
+ ,,,,,,,
+Staff,,Joe Bloggs,,,,,
+Period,,15-Jul-2019 to 21-Jul-2019,,,,,
+,,,,,,,
+Mon,Tue,Wed,Thu,Fri,Sat,Sun,Total
+ ,,,,,,,
+8:00,8:15,8:30,8:10,8:40,0:00,0:00,41:35
+Date,Client,,Job No.,Name,,Task,Time
+ ,,,,,,,
+15-Jul-2019,Company One,,J001111,Website,,Front end,0:55
+15-Jul-2019,Company One,,J001111,Website,,Back end,0:40
+15-Jul-2019,Company Two,,J002222,Application,,Android,0:10
+15-Jul-2019,Company Two,,J002222,Application,,iOS,1:25
+15-Jul-2019,Company Three,,J003333,Website,,Admin Panel,4:50
+16-Jul-2019,Company Three,,J003333,Website,,SEO,1:30
+16-Jul-2019,Company Two,,J002222,Application,,Windows,3:10
+16-Jul-2019,Company One,,J001111,Website,,Back end,0:50
+16-Jul-2019,Company One,,J001111,Website,,Front end,2:45
+17-Jul-2019,Company Two,,J002222,Application,,Android,2:10
+17-Jul-2019,Company Two,,J002222,Application,,Mac OS X,6:20
+18-Jul-2019,Company Two,,J002222,Application,,Linux,8:10
+19-Jul-2019,Company One,,J001111,Website,,SEO,1:00
+19-Jul-2019,Company One,,J001111,Website,,Back end,7:40
+Date Printed: 24 Jul 2019 13:31,,,,,,,Page 1 of 1
