@@ -28,7 +28,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kingga\\Workflow\\": "src/"
+            "Kingga\\WorkflowTimesheet\\": "src/"
         }
     },
     "extra": {

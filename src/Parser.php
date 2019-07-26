@@ -5,16 +5,16 @@
  *
  * @author Isaac Skelton <contact@isaacskelton.com>
  * @since 1.0.0
- * @package Kingga\Workflow
+ * @package Kingga\WorkflowTimesheet
  */
 
-namespace Kingga\Workflow;
+namespace Kingga\WorkflowTimesheet;
 
 use DateTime;
 use Exception;
-use Kingga\Workflow\Day;
-use Kingga\Workflow\Week;
-use Kingga\Workflow\Entry;
+use Kingga\WorkflowTimesheet\Day;
+use Kingga\WorkflowTimesheet\Week;
+use Kingga\WorkflowTimesheet\Entry;
 
 /**
  * This class is a parser for the Workflow 'Export as CSV' function.

@@ -5,10 +5,10 @@
  *
  * @author Isaac Skelton <contact@isaacskelton.com>
  * @since 1.0.0
- * @package Kingga\Workflow
+ * @package Kingga\WorkflowTimesheet
  */
 
-namespace Kingga\Workflow;
+namespace Kingga\WorkflowTimesheet;
 
 /**
  * The entry storage class.

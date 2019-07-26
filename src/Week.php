@@ -5,13 +5,13 @@
  *
  * @author Isaac Skelton <contact@isaacskelton.com>
  * @since 1.0.0
- * @package Kingga\Workflow
+ * @package Kingga\WorkflowTimesheet
  */
 
-namespace Kingga\Workflow;
+namespace Kingga\WorkflowTimesheet;
 
 use DateTime;
-use Kingga\Workflow\Day;
+use Kingga\WorkflowTimesheet\Day;
 
 /**
  * The week storage class.

@@ -5,7 +5,7 @@ class ParserTest extends \Codeception\Test\Unit
 
     protected function _before()
     {
-        $parser = new Kingga\Workflow\Parser;
+        $parser = new Kingga\WorkflowTimesheet\Parser;
         $this->week = $parser->parse(__DIR__ . '/_support/Time-Sheet.csv');
     }
 

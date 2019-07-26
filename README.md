@@ -26,11 +26,11 @@ Week: [
 ```
 
 ## Installation
-Run the command `composer require kingga/workflow`.
+Run the command `composer require kingga/workflow-timesheet`.
 
 ## Usage
 ```php
-$parser = new Kingga\Workflow\Parser;
+$parser = new Kingga\WorkflowTimesheet\Parser;
 $timesheet = $parser->parse(__DIR__ . '/Time-Sheet.csv');
 
 dd($timesheet);
