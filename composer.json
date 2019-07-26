@@ -33,7 +33,7 @@
     },
     "extra": {
         "hooks": {
-            "pre-commit": [
+            "pre-push": [
                 "composer test",
                 "composer phan"
             ]
