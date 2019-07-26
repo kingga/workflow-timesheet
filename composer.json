@@ -2,7 +2,7 @@
     "name": "kingga/workflow-timesheet",
     "description": "Xero workflow weekly CSV parser.",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "minimum-stability": "stable",
     "scripts": {
         "codecept": "codecept",
