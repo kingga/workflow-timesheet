@@ -7,11 +7,17 @@
     "scripts": {
         "codecept": "codecept",
         "create-unit": "codecept g:unit",
-        "test": "codecept run"
+        "test": "codecept run",
+        "phan": "phan --allow-polyfill-parser",
+        "post-install-cmd": "cghooks add --ignore-lock",
+        "post-update-cmd": "cghooks update",
+        "cghooks": "cghooks"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.3",
-        "codeception/codeception": "^3.0"
+        "codeception/codeception": "^3.0",
+        "phan/phan": "^2.2",
+        "brainmaestro/composer-git-hooks": "^2.7"
     },
     "license": "MIT",
     "authors": [
@@ -23,6 +29,14 @@
     "autoload": {
         "psr-4": {
             "Kingga\\Workflow\\": "src/"
+        }
+    },
+    "extra": {
+        "hooks": {
+            "pre-commit": [
+                "composer test",
+                "composer phan"
+            ]
         }
     }
 }

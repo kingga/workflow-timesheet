@@ -11,6 +11,7 @@
 namespace Kingga\Workflow;
 
 use DateTime;
+use Kingga\Workflow\Entry;
 
 /**
  * The day storage class.
@@ -78,7 +79,7 @@ class Day
     /**
      * Get the name of this day, e.g. Monday, Tuesday, ...
      *
-     * @var string The name of the day.
+     * @return string The name of the day.
      */
     public function getDayName(): string
     {

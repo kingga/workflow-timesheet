@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 class ParserTest extends \Codeception\Test\Unit
 {
 

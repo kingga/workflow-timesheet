@@ -11,7 +11,7 @@
 namespace Kingga\Workflow;
 
 use DateTime;
-use Exception;
+use Kingga\Workflow\Day;
 
 /**
  * The week storage class.
@@ -113,9 +113,9 @@ class Week
 
     /**
      * Get the day of the week using a one based index, e.g. 1 = Monday, 2 = Tuesday, ...
-     * 
+     *
      * @param int $day The day of the week starting at 1.
-     * 
+     *
      * @return Day|null The day if it is found.
      */
     public function getDay(int $day): ?Day

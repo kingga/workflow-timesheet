@@ -110,7 +110,7 @@ class Parser
         [$hour, $minute] = explode(':', $time);
         $minute /= 60;
 
-        return $hour + $minute;
+        return ((int) $hour) + $minute;
     }
 
     /**
